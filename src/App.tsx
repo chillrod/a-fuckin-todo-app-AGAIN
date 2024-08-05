@@ -6,6 +6,7 @@ import { TodoContext } from "./store/todoContext";
 
 function App() {
   const { value, loading } = useContext(TodoContext);
+
   return (
     <Container maxW="container.lg" p={12}>
       <TodoHeader>
